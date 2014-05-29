@@ -104,6 +104,11 @@
  */
 - (BOOL)load:(out NSError**)error;
 
+/**
+ * Clear contetnt and entries.
+ */
+- (void)flush;
+
 @end
 
 /**
