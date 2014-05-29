@@ -277,5 +277,11 @@ static const size_t ENDOFCENTRALDIRECTORY_MINSEARCH = sizeof(ZZEndOfCentralDirec
 	return YES;
 }
 
+- (void)flush
+{
+    _contents = nil;
+    _entries = nil;
+}
+
 @end
 
